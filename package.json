@@ -1,0 +1,29 @@
+{
+  "name": "sessions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express-session": "^1.14.2",
+    "express-sessions": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevRob/sessions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevRob/sessions/issues"
+  },
+  "homepage": "https://github.com/DevRob/sessions#readme"
+}
