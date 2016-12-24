@@ -1,0 +1,13 @@
+<form class="" action="/login" method="post">
+  <div class="">
+    <label for="">Email:</label>
+    <input type="text" name="username" value="Enter your email">
+  </div>
+  <div class="">
+    <label for="">Password:</label>
+    <input type="text" name="password" value="Enter your password">
+  </div>
+  <div class="">
+    <input type="submit" value="Log In">
+  </div>
+</form>

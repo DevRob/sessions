@@ -1,4 +1,5 @@
-const knex = require('./db')
+const knex = require('knex')
+const db = require('./db')
 const passport = require('passport')
 const LocalStrategy = require('passport-local').Strategy
 
