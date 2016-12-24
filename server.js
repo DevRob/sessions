@@ -31,4 +31,11 @@ express()
       res.redirect("login")
     })
   })
-  .listen(3000)
+  .get("/signup", (req, res, next) => {
+    res.render("signup")
+  })
+  .post("/signup", passport.authenticate("local-register", {
+    successRedirect: "/",
+    failureRedirect: "/signup",
+  }))
+  .listen(3033)
